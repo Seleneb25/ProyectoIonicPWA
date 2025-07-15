@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule, IonModal } from '@ionic/angular';
@@ -10,7 +10,7 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-modal',
   templateUrl: './modal.page.html',
   styleUrls: ['./modal.page.scss'],
-  imports: [IonicModule, CommonModule, RouterModule, ComponentesModule,FormsModule ],
+  imports: [IonicModule, RouterModule, ComponentesModule, FormsModule],
 })
 export class ModalPage implements OnInit {
 

@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
@@ -16,7 +16,7 @@ interface Alumno {
   selector: 'app-list',
   templateUrl: './list.page.html',
   styleUrls: ['./list.page.scss'],
-  imports: [IonicModule, CommonModule, RouterModule, ComponentesModule],
+  imports: [IonicModule, RouterModule, ComponentesModule],
 })
 export class ListPage implements OnInit {
 
